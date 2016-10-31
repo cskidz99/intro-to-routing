@@ -1,0 +1,7 @@
+<div>Hey everyone, it is Halloween!</div>
+
+<div ng-repeat="person in test">
+  <div><a ui-sref="details({detailId: $index})">{{person.name}}</a></div>
+</div>
+
+<a ui-sref="details">Go To Details</a>
